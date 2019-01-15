@@ -2,7 +2,7 @@
 # ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 baseurl = "https://ruiju.netlify.com/"
 languageCode = "en-us"
-title = "John Doe Resume"
+title = "Rui Ju Resume"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
@@ -24,15 +24,15 @@ disable404 = true
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles.css"
-
+    styles = "styles-6.css"
+    
 # Sidebar sections
 
     # Profile section
     [params.profile]
-        name = "John Doe"
-        tagline = "Full Stack Developer"
-        avatar = "profile.png"
+        name = "Rui Ju"
+        tagline = "Future Data Scientist"
+        avatar = "mypicture.png"
 
     # Contact section
     [params.contact]
@@ -41,20 +41,20 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto:jurui1998@163.com"
+        title = "jurui1998@163.com"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
         url = "tel:+1234567890"
-        title = "+1234567890"
+        title = "+86 15801861260"
 
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
+        url = "//ruiju.netlify.com"
+        title = "ruiju.netlify.com"
 
         [[params.contact.list]]
         class = "linkedin"
@@ -68,11 +68,11 @@ disable404 = true
         url = "//github.com/username"
         title = "github.com/username"
 
-        [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+      # [[params.contact.list]]
+      #  class = "twitter"
+      #  icon = "fa-twitter"
+      #  url = "//twitter.com/username"
+      #  title = "@twittername"
 
     # Education section
     [params.education]
@@ -80,14 +80,14 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "BSc in Shanghai University of Finance and Economics"
+        college = "School of Economics"
+        dates = "2015 - 2019"
 
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "University of California, Berkeley"
+        college = "Visiting student"
+        dates = "2017 - 2018"
 
     # Languages section
     [params.language]
@@ -95,16 +95,16 @@ disable404 = true
         title = "Languages"
 
         [[params.language.list]]
-        language = "English"
+        language = "Chinese"
         level = "Native"
 
         [[params.language.list]]
-        language = "French"
+        language = "English"
         level = "Professional"
 
-        [[params.language.list]]
-        language = "Russian"
-        level = "Professional"
+       # [[params.language.list]]
+       # language = "Russian"
+       # level = "Professional"
 
     # Interests section
     [params.interests]
@@ -112,13 +112,13 @@ disable404 = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Climbing"
+        interest = "Breakdance"
 
         [[params.interests.list]]
-        interest = "Snowboarding"
+        interest = "Violin Grade 10"
 
-        [[params.interests.list]]
-        interest = "Cooking"
+      #  [[params.interests.list]]
+      #  interest = "Cooking"
 
 # Main body sections
 
