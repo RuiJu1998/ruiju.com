@@ -1,6 +1,6 @@
 # Page settings
 # ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-baseurl = "http://ruiju.netlify.com/"
+baseurl = "https://ruiju.netlify.com/"
 languageCode = "en-us"
 title = "John Doe Resume"
 theme = "hugo-orbit-theme"
