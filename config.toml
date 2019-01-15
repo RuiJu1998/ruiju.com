@@ -1,5 +1,5 @@
 # Page settings
-# ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
 baseurl = "https://ruiju.netlify.com/"
 languageCode = "en-us"
 title = "Rui Ju Resume"
@@ -228,3 +228,4 @@ disable404 = true
 
     [params.footer]
         copyright = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
