@@ -47,7 +47,7 @@ disable404 = true
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
+        url = "tel:+86 15801861260"
         title = "+86 15801861260"
 
         [[params.contact.list]]
@@ -59,14 +59,14 @@ disable404 = true
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        url = "//linkedin.com/in/ruiju"
+        title = "linkedin.com/in/ruiju"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
+        url = "//github.com/RuiJu1998"
+        title = "github.com/RuiJu1998"
 
       # [[params.contact.list]]
       #  class = "twitter"
@@ -125,11 +125,11 @@ disable404 = true
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
 
     # Summary section
-    [params.summary]
-        enable = true
-        icon = "fa-user"
-        title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+  #  [params.summary]
+  #      enable = true
+  #      icon = "fa-user"
+  #      title = "Career Profile"
+  #      summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
 
     # Experiences section
     [params.experiences]
@@ -138,22 +138,22 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "Data Analyst"
+        dates = "Oct, 2018-present"
+        company = "The Nielsen Company"
+        details = "Participated in the data analysis and modeling of economic indicators based on county-level data all over China, and created a PPT report; Used python to compute the projection factors based on the model to help estimate the total sales of Coke Cola all over China;Assisted in building city blocks for local agents to visit on QGIS."
 
         [[params.jobs.list]]
         position = "Senior Software Engineer"
         dates = "2014 - 2015"
         company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = ""
 
         [[params.jobs.list]]
         position = "UI Developer"
         dates = "2012 - 2014"
         company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = ""
 
     # Projects section
     [params.projects]
@@ -194,28 +194,28 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
+        skill = "R"
+        level = "90%"
                 
         [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
+        skill = "Python"
+        level = "90%"
 
         [[params.skills.list]]
-        skill = "Angular"
-        level = "95%"
+        skill = "SQL"
+        level = "90%"
 
         [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
+        skill = "Matlab"
+        level = "85%"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
+        skill = "Java"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "C++"
         level = "75%"
-
-        [[params.skills.list]]
-        skill = "Sketch & Photoshop"
-        level = "60%"
 
     # Footer section
 
