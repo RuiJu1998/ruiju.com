@@ -10,7 +10,7 @@
 /* ======= Base ======= */
 body {
   font-family: 'Roboto', sans-serif;
-  color: #545E6C;
+  color: #3F4650;
   background: #f5f5f5;
   font-size: 14px;
   padding: 30px;
@@ -26,7 +26,7 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #2e4049;
+  color: rgba(10, 0, 255, 0.5);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -34,7 +34,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #10171a;
+  color:rgba(10, 0, 255, 0.15);
 }
 a:focus {
   text-decoration: none;
@@ -43,8 +43,8 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #4B6A78;
-  max-width: 960px;
+  background: rgba(10, 0, 255, 0.15);
+  max-width: 1080px;
   margin: 0 auto;
   position: relative;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -52,22 +52,22 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #4B6A78;
+  background: rgba(10, 0, 255, 0.15);
   position: absolute;
   right: 0;
-  width: 240px;
+  width: 300px;
   height: 100%;
   min-height: 800px;
-  color: #fff;
+  color: #3F4650;
 }
 .sidebar-wrapper a {
-  color: #fff;
+  color: #3F4650;
 }
 .sidebar-wrapper .profile-container {
   padding: 30px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 255, 0.1);
   text-align: center;
-  color: #fff;
+  color: #3F4650;
 }
 .sidebar-wrapper .name {
   font-size: 32px;
@@ -76,9 +76,9 @@ p {
   margin-bottom: 10px;
 }
 .sidebar-wrapper .tagline {
-  color: rgba(255, 255, 255, 0.6);
+  color: #3F4650;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -121,18 +121,18 @@ p {
   margin-bottom: 0;
 }
 .sidebar-wrapper .education-container .meta {
-  color: rgba(255, 255, 255, 0.6);
+  color: #3F4650;
   font-weight: 500;
   margin-bottom: 0px;
   margin-top: 0;
 }
 .sidebar-wrapper .education-container .time {
-  color: rgba(255, 255, 255, 0.6);
+  color: #3F4650;
   font-weight: 500;
   margin-bottom: 0px;
 }
 .sidebar-wrapper .language-container .lang-desc {
-  color: rgba(255, 255, 255, 0.6);
+  color: #3F4650;
 }
 .sidebar-wrapper .languages-list {
   margin-bottom: 0;
@@ -155,14 +155,14 @@ p {
 .main-wrapper {
   background: #fff;
   padding: 60px;
-  padding-right: 300px;
+  padding-right: 380px;
   page-break-before: always;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #2e4049;
+  color: rgba(10, 0, 255, 0.6);
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -181,7 +181,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #2e4049;
+  background: rgba(10, 0, 255, 0.5);
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -211,11 +211,13 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  color: #3F4650;
+  font-weight: 500;
 }
 .main-wrapper .company {
   margin-bottom: 10px;
-  color: #97AAC3;
+  color: #3F4650;
+  font-weight: 500;
 }
 .main-wrapper .project-title {
   font-size: 16px;
@@ -244,7 +246,7 @@ p {
 }
 .skillset .level-bar-inner {
   height: 12px;
-  background: #6c92a3 !important;
+  background: rgba(10, 0, 255, 0.15) !important;
 }
 .footer {
   padding: 30px;
@@ -256,7 +258,7 @@ p {
   font-size: 13px;
 }
 .footer .fa-heart {
-  color: #fb866a;
+  color: rgba(10, 0, 255, 0.5);
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {

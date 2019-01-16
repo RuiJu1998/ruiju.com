@@ -100,7 +100,7 @@ disable404 = true
 
         [[params.language.list]]
         language = "English"
-        level = "Professional"
+        level = "Advanced"
 
        # [[params.language.list]]
        # language = "Russian"
@@ -141,31 +141,31 @@ disable404 = true
         position = "Data Analyst"
         dates = "Oct, 2018-present"
         company = "The Nielsen Company"
-        details = "Participated in the data analysis and modeling of economic indicators based on county-level data all over China, and created a PPT report; Used python to compute the projection factors based on the model to help estimate the total sales of Coke Cola all over China;Assisted in building city blocks for local agents to visit on QGIS."
+        details = "Participated in the data analysis and modeling of economic indicators based on county-level data all over China, and created a PPT report;\n\nUsed python to compute the projection factors based on the model to help estimate the total sales of Coke Cola all over China;\n\nAssisted in building city blocks for local agents to visit on QGIS."
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = ""
+        position = "Data Analyst"
+        dates = "May,2018-Jun,2018"
+        company = "Bank of China, Shanghai Branch"
+        details = " Assisted with managing and maintaining customer information management systems using Hadoop;\n\nStudied the features and requirements of customer information management systems, and collected improvement advises from other divisions."
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = ""
+        position = "Quantitative Analyst"
+        dates = "Jul,2016-Aug,2016"
+        company = "FXCM Consulting Limited, Huangpu Branch"
+        details = "Learned and practiced forex trading skills for 14+ hours every day, and wrote daily reports based on both quantitative and fundamental analysis;\n\nCollaborated with team members in giving an in-depth presentation on investment skills of stock, fund and forex."
 
     # Projects section
     [params.projects]
         enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+        # intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
-        title = "Hugrid"
+        title = "Models and Morals"
         url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        tagline = ""
 
         [[params.projects.list]]
         title = "Simple FAQ Theme for Hugo"
@@ -178,14 +178,20 @@ disable404 = true
         tagline = "Little profile/card-style template for Hugo."
 
         [[params.projects.list]]
-        title = "Orbit"
+        title = "Shoe Sales"
         url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
+        tagline = "A time series analysis analyzing the shoe sales throughout the US and making predictions."
 
         [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
+        title = "Movie Collection"
+        url = "https://github.com/RuiJu1998/MovieCollection"
+        tagline = "A simple system for movie lovers to record the movies they have watched along with their personal ratings and reviews for them."
+        
+        [[params.projects.list]]
+        title = "More"
+        url = "https://github.com/aerohub/hugo-identity-theme"
+        
+
 
     # Skills section
     [params.skills]
@@ -216,6 +222,10 @@ disable404 = true
         [[params.skills.list]]
         skill = "C++"
         level = "75%"
+        
+        [[params.skills.list]]
+        skill = "QGIS"
+        level = "85%"
 
     # Footer section
 
@@ -227,5 +237,5 @@ disable404 = true
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = ""
+      copyright = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
