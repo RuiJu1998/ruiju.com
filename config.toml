@@ -139,19 +139,19 @@ disable404 = true
 
         [[params.jobs.list]]
         position = "Data Analyst"
-        dates = "Oct, 2018-present"
+        dates = "Oct, 2018-Jan, 2019"
         company = "The Nielsen Company"
         details = "Participated in the data analysis and modeling of economic indicators based on county-level data all over China, and created a PPT report;\n\nUsed python to compute the projection factors based on the model to help estimate the total sales of Coke Cola all over China;\n\nAssisted in building city blocks for local agents to visit on QGIS."
 
         [[params.jobs.list]]
         position = "Data Analyst"
-        dates = "May,2018-Jun,2018"
+        dates = "May, 2018-Jun, 2018"
         company = "Bank of China, Shanghai Branch"
         details = " Assisted with managing and maintaining customer information management systems using Hadoop;\n\nStudied the features and requirements of customer information management systems, and collected improvement advises from other divisions."
 
         [[params.jobs.list]]
         position = "Quantitative Analyst"
-        dates = "Jul,2016-Aug,2016"
+        dates = "Jul, 2016-Aug, 2016"
         company = "FXCM Consulting Limited, Huangpu Branch"
         details = "Learned and practiced forex trading skills for 14+ hours every day, and wrote daily reports based on both quantitative and fundamental analysis;\n\nCollaborated with team members in giving an in-depth presentation on investment skills of stock, fund and forex."
 
@@ -163,24 +163,14 @@ disable404 = true
         # intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
-        title = "Models and Morals"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = ""
-
-        [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
-
-        [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
+        title = "Climate Discourse:Polarized or Post-Political?"
+        url = "https://docs.wixstatic.com/ugd/6e9de4_c5287d561ba142f695e081df4a258de3.pdf"
+        tagline = "Helped Rachel Wetts (PhD, UCB) with analyzing the deciding factors of press releases concerned with climate change getting picked up by mainstream media."
 
         [[params.projects.list]]
         title = "Shoe Sales"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "A time series analysis analyzing the shoe sales throughout the US and making predictions."
+        url = "https://github.com/RuiJu1998/ShoeSales"
+        tagline = "A time series analysis analyzing the monthly shoe sales throughout the US and making predictions using ARIMA models and spectral analysis."
 
         [[params.projects.list]]
         title = "Movie Collection"
@@ -188,9 +178,19 @@ disable404 = true
         tagline = "A simple system for movie lovers to record the movies they have watched along with their personal ratings and reviews for them."
         
         [[params.projects.list]]
-        title = "More"
-        url = "https://github.com/aerohub/hugo-identity-theme"
+        title = "Scheme Interpreter"
+        url = "https://github.com/RuiJu1998/SchemeInterpreter"
+        tagline = "A simple scheme interpreter in Python."
         
+        [[params.projects.list]]
+        title = "Ants"
+        url = "https://github.com/RuiJu1998/Ants"
+        tagline = "A game in Python inspired by Plants vs. Zombies using object-oriented design."
+        
+        [[params.projects.list]]
+        title = "Yelp Maps"
+        url = "https://github.com/RuiJu1998/YelpMaps"
+        tagline = "A visualization of restaurant ratings using machine learning and the Yelp academic dataset."
 
 
     # Skills section
